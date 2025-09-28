@@ -239,6 +239,8 @@
 import React from 'react';
 import { Calendar, Clock, MapPin, Star } from 'lucide-react';
 import { BookingType } from '../types';
+import bgImage from '../assets/bg.jpeg';
+
 
 interface HeroProps {
   onBooking: (type: BookingType) => void;
@@ -250,7 +252,7 @@ const Hero: React.FC<HeroProps> = ({ onBooking }) => {
       id="home" 
       className="relative text-white py-20"
       style={{
-        backgroundImage: 'url(bg.jpeg)',
+         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

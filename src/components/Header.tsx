@@ -656,7 +656,7 @@ const Header: React.FC<HeaderProps> = ({ language, setLanguage }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(true); // Simulate logged in state
   const [user] = useState({
     name: 'ROSE',
-    email: 'rajesh.kumar@example.com',
+    email: 'rose@gmail.com',
     phone: '+91 98765 43210',
     memberSince: '2023',
     bookings: 12,

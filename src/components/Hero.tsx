@@ -280,7 +280,7 @@ const Hero: React.FC<HeroProps> = ({ onBooking }) => {
             </div>
             <div className="flex items-center space-x-2 bg-white bg-opacity-20 rounded-full px-4 py-2">
               <MapPin className="w-5 h-5" />
-              <span>500+ Temples</span>
+              <span>Live Dharasan</span>
             </div>
           </div>
           <button

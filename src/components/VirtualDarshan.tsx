@@ -216,42 +216,76 @@ const VirtualDarshan: React.FC = () => {
   const [isLive, setIsLive] = useState(true);
   const [currentViewers, setCurrentViewers] = useState(15420);
 
-  const liveStreams = [
-    {
-      id: '1',
-      temple: 'Somnath Temple',
-      location: 'Veraval',
-      viewers: 15420,
-      quality: '4K HD',
-      language: 'Multi-language',
-      nextAarti: '6:00 PM',
-      thumbnail: 's.jpg',
-      youtubeId: 'MVqqIh15OMs'
-    },
-    {
-      id: '2',
-      temple: 'Dwaraka Temple',
-      location: 'Dwarka',
-      viewers: 8650,
-      quality: '4K HD',
-      language: 'Multi-language',
-      nextAarti: '7:30 PM',
-      thumbnail: 'ff.jpg',
-      youtubeId: 'MVqqIh15OMs'
-    },
-    {
-      id: '3',
-      temple: 'Ambanji Temple',
-      location: 'Gir Somnath',
-      viewers: 12340,
-      quality: '4K HD',
-      language: 'Multi-language',
-      nextAarti: '8:00 PM',
-      thumbnail: 'Ambaji-Temple-Banner.jpg',
-      youtubeId: 'MVqqIh15OMs'
-    }
-  ];
-
+  // const liveStreams = [
+  //   {
+  //     id: '1',
+  //     temple: 'Somnath Temple',
+  //     location: 'Veraval',
+  //     viewers: 15420,
+  //     quality: '4K HD',
+  //     language: 'Multi-language',
+  //     nextAarti: '6:00 PM',
+  //     thumbnail: 's.jpg',
+  //     youtubeId: 'MVqqIh15OMs'
+  //   },
+  //   {
+  //     id: '2',
+  //     temple: 'Dwaraka Temple',
+  //     location: 'Dwarka',
+  //     viewers: 8650,
+  //     quality: '4K HD',
+  //     language: 'Multi-language',
+  //     nextAarti: '7:30 PM',
+  //     thumbnail: 'ff.jpg',
+  //     youtubeId: 'MVqqIh15OMs'
+  //   },
+  //   {
+  //     id: '3',
+  //     temple: 'Ambanji Temple',
+  //     location: 'Gir Somnath',
+  //     viewers: 12340,
+  //     quality: '4K HD',
+  //     language: 'Multi-language',
+  //     nextAarti: '8:00 PM',
+  //     thumbnail: 'Ambaji-Temple-Banner.jpg',
+  //     youtubeId: 'MVqqIh15OMs'
+  //   }
+  // ];
+const liveStreams = [
+  {
+    id: '1',
+    temple: 'Somnath Temple',
+    location: 'Veraval',
+    viewers: 15420,
+    quality: '4K HD',
+    language: 'Multi-language',
+    nextAarti: '6:00 PM',
+    thumbnail: new URL('../assets/s.jpg', import.meta.url).href,
+    youtubeId: 'MVqqIh15OMs'
+  },
+  {
+    id: '2',
+    temple: 'Dwaraka Temple',
+    location: 'Dwarka',
+    viewers: 8650,
+    quality: '4K HD',
+    language: 'Multi-language',
+    nextAarti: '7:30 PM',
+    thumbnail: new URL('../assets/ff.jpg', import.meta.url).href,
+    youtubeId: 'MVqqIh15OMs'
+  },
+  {
+    id: '3',
+    temple: 'Ambanji Temple',
+    location: 'Gir Somnath',
+    viewers: 12340,
+    quality: '4K HD',
+    language: 'Multi-language',
+    nextAarti: '8:00 PM',
+    thumbnail: new URL('../assets/Ambaji-Temple-Banner.jpg', import.meta.url).href,
+    youtubeId: 'MVqqIh15OMs'
+  }
+];
   const [currentVideo, setCurrentVideo] = useState(liveStreams[0].youtubeId);
   const [isPlaying, setIsPlaying] = useState(false);
 

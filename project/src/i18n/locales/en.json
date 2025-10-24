@@ -1,0 +1,474 @@
+{
+  "header": {
+    "home": "Home",
+    "bookings": "Bookings",
+    "temples": "Temples",
+    "virtual_darshan": "Virtual Darshan",
+    "donations": "Donations",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "bookingHistory": "Booking History",
+    "paymentMethods": "Payment Methods",
+    "settings": "Settings",
+    "logout": "Logout",
+    "login": "Login",
+    "signUp": "Sign Up",
+    "account": "Account",
+    "needHelp": "Need help?",
+    "supportEmail": "support@shree.com",
+    "supportPhone": "+1 (555) 123-4567"
+  },
+  "hero": {
+    "welcome": "Welcome to",
+    "app_name": "SHREE",
+    "subtitle": "Your Gateway to Divine Blessings - Book Temple Visits, Seva & More",
+    "feature_realtime": "Real-time Slots",
+    "feature_instant": "Instant Confirmation",
+    "feature_live": "Live Dharasan",
+    "book_darshan_button": "Book Darshan Now",
+    "stats_bookings_count": "1,847",
+    "stats_bookings_label": "Today's Bookings",
+    "stats_devotees_count": "500K+",
+    "stats_devotees_label": "Happy Devotees",
+    "stats_support_count": "24/7",
+    "stats_support_label": "Support Available"
+  },
+  "booking": {
+    "section_title": "Booking Services",
+    "section_subtitle": "Experience seamless temple visits with our comprehensive booking platform. Everything you need for a divine journey, all in one place.",
+    "live_badge": "Live",
+    "book_now_button": "Book Now",
+    
+    "darshan": {
+      "title": "Darshan Booking",
+      "description": "Book your temple visit slots with real-time availability",
+      "available": "250 slots today",
+      "price": "Free - ₹500"
+    },
+    "seva": {
+      "title": "Seva & Puja",
+      "description": "Special rituals, homams, and religious ceremonies",
+      "available": "15 types available",
+      "price": "₹200 - ₹5000"
+    },
+    "accommodation": {
+      "title": "Accommodation",
+      "description": "Guest houses, cottages & partner hotel bookings",
+      "available": "25 rooms available",
+      "price": "₹800 - ₹3000"
+    },
+    "prasad": {
+      "title": "Prasad Delivery",
+      "description": "Sacred offerings delivered to your doorstep",
+      "available": "Same day delivery",
+      "price": "₹100 - ₹1500"
+    },
+    "parking": {
+      "title": "Parking Slots",
+      "description": "Reserve vehicle parking in advance",
+      "available": "120 spots available",
+      "price": "₹20 - ₹100"
+    },
+    
+    "feature_availability_title": "Real-time Availability",
+    "feature_availability_desc": "Live slot updates every 30 seconds",
+    "feature_confirmation_title": "Instant Confirmation",
+    "feature_confirmation_desc": "QR codes sent immediately",
+    "feature_support_title": "Priority Support",
+    "feature_support_desc": "Elderly & disabled assistance"
+  },
+  "templeInfo": {
+    "section_title": "Temple Information Hub",
+    "section_subtitle": "Discover divine temples with comprehensive information, live updates, and sacred histories.",
+    "featured_temples": "Featured Temples",
+    "rating": "Rating",
+    "live_queue_status": "Live Queue Status",
+    "people_in_queue": "people in queue",
+    "est_wait": "Est. wait",
+    "upcoming_event": "Upcoming Event",
+    "buttons": {
+      "book_darshan": "Book Darshan",
+      "get_directions": "Get Directions",
+      "history": "History"
+    },
+    "history_modal": {
+      "title": "Historical Significance",
+      "close_button": "Close History"
+    },
+    "map_modal": {
+      "title": "Directions to {{templeName}}",
+      "map_placeholder": "Map integration would show here",
+      "address_title": "Temple Address",
+      "address_state": "Gujarat, India",
+      "travel_time": "Travel Time",
+      "travel_duration": "2-3 hours",
+      "travel_from_city": "From nearest major city",
+      "open_google_maps": "Open in Google Maps",
+      "download_directions": "Download Directions",
+      "close_map": "Close Map",
+      "travel_tips": "Travel Tips",
+      "tips": [
+        "• Best time to visit: Early morning to avoid crowds",
+        "• Parking available near temple premises",
+        "• Public transportation accessible",
+        "• Wear comfortable shoes for temple premises"
+      ]
+    },
+    "temples": [
+      {
+        "name": "Somnath Temple",
+        "deity": "Lord Shiva",
+        "location": "Veraval, Gujarat",
+        "timings": "3:00 AM - 11:00 PM",
+        "description": "The Somnath Temple venerates Lord Shiva in his form as Somnath, the Lord of the Moon, housing one of the twelve sacred Jyotirlingas, which represent his infinite, formless light.",
+        "estimatedWait": "3-4 hours",
+        "specialEvents": "Brahmotsavam Festival - March 2024",
+        "history": "The Somnath Temple is one of the most sacred and ancient temples in India, with a history spanning over 2000 years. \n\nKey Historical Facts:\n• First Temple: Believed to have been built by the Moon God Soma in gold, later rebuilt by Ravana in silver, by Krishna in wood, and by Bhimdev in stone\n• Jyotirlinga: Houses the first among the twelve Jyotirlinga shrines of Shiva\n• Islamic Invasions: Destroyed and rebuilt multiple times by various invaders including Mahmud of Ghazni (1026 CE), Alauddin Khilji's army (1296 CE), and Aurangzeb (1701 CE)\n• Reconstruction: The current temple was reconstructed in 1951 under the initiative of Sardar Vallabhbhai Patel\n• Architecture: Built in the Chalukya style of architecture, reflecting the grandeur of ancient Indian temple architecture\n\nSpiritual Significance:\n• The temple is mentioned in ancient texts like the Rig Veda and Puranas\n• It symbolizes the eternal nature of Shiva and the resilience of Hindu faith\n• Located at the confluence of three rivers - Kapila, Hiran, and Saraswati\n• Believed to be the place where Lord Krishna ended his earthly journey"
+      },
+      {
+        "name": "Dwaraka Temple",
+        "deity": "Lord Krishna",
+        "location": "Dwarka, Gujarat",
+        "timings": "5:00 AM - 10:00 PM",
+        "description": "The Dwarka Temple is dedicated to Lord Krishna, worshipped here as Dwarkadhish, the \"King of Dwarka\"",
+        "estimatedWait": "1-2 hours",
+        "specialEvents": "Chithirai Festival - April 2024",
+        "history": "The Dwarkadhish Temple, also known as Jagat Mandir, is an ancient temple dedicated to Lord Krishna located in the sacred city of Dwarka.\n\nHistorical Timeline:\n• Ancient City: Dwarka was the capital of Lord Krishna's kingdom, established after he left Mathura\n• Original Temple: Believed to have been built by Krishna's great-grandson Vajranabha over Lord Krishna's residential palace\n• Medieval Period: The current temple structure dates back to the 16th century, built in the Chalukyan architectural style\n• Archaeological Evidence: Marine archaeological explorations have revealed underwater structures supporting the historical existence of ancient Dwarka\n\nArchitectural Features:\n• Five-storied main shrine supported by 72 pillars\n• 78-meter high spire adorned with the flag and Sudarshana Chakra\n• Main deity: Lord Krishna as Dwarkadhish in black stone, standing in Tribhanga posture\n• The temple has two main gateways - Swarga Dwar (Gate to Heaven) and Moksha Dwar (Gate to Salvation)\n\nSpiritual Importance:\n• One of the Char Dham (four principal holy places) for Hindus\n• One of the Sapta Puri (seven sacred cities) that grant moksha\n• Mentioned in the Mahabharata, Harivamsa, and various Puranas\n• Believed to be the gateway to spiritual liberation"
+      },
+      {
+        "name": "Ambaji Temple",
+        "deity": "Goddess Mahakali",
+        "location": "Gir Somnath, Gujarat",
+        "timings": "24 Hours Open",
+        "description": "The Ambaji Temple in Gujarat is a revered shrine dedicated to Goddess Mahakali, a powerful and fierce form of the Divine Mother.",
+        "estimatedWait": "30-45 minutes",
+        "specialEvents": "Guru Nanak Jayanti - November 2024",
+        "history": "The Ambaji Temple is one of the 51 Shakti Peethas where the heart of Goddess Sati is believed to have fallen, making it one of the most important Shakti worship centers in India.\n\nMythological Significance:\n• Shakti Peetha: Where the heart of Goddess Sati fell when Lord Vishnu's Sudarshana Chakra cut her body\n• Original Name: Known as Arasuri Ambaji, derived from 'Aranya' meaning forest and 'Suri' meaning sun\n• Ancient Worship: The temple has been a center of Shakti worship for over 2000 years\n\nArchitectural Marvel:\n• No Idol: The temple features a unique Vishwa Yantra instead of a traditional idol, covered with rich silken cloth\n• Golden Kalash: The temple spire is adorned with a magnificent golden kalash (urn)\n• Silver Plated: The main entrance is beautifully silver-plated with intricate carvings\n\nHistorical Development:\n• Ancient Origins: Mentions in ancient texts like the Puranas and Tantric scriptures\n• Medieval Period: Renovated and expanded by various rulers including the Solanki dynasty\n• Modern Era: Continuous development and maintenance by temple trusts and devotees\n\nSpiritual Practices:\n• Special pujas performed during Navratri and full moon days\n• The temple is part of the famous \"Mata na Madh\" pilgrimage\n• Known for granting wishes and providing spiritual strength to devotees"
+      }
+    ]
+  },
+  "virtualDarshan": {
+    "section_title": "Virtual Darshan",
+    "section_subtitle": "Experience divine blessings from anywhere in the world with our live streaming services. Join thousands of devotees in virtual worship.",
+    "live_darshan": "Live Darshan",
+    "click_to_play": "Click to play live stream",
+    "live_badge": "LIVE",
+    "thumbnail_alt": "Temple Thumbnail",
+    "current_stream": {
+      "title": "Morning Suprabhatham",
+      "description": "Live from the sanctum sanctorum",
+      "quality": "4K HD",
+      "next_aarti": "Next Aarti: 6:00 PM"
+    },
+    "more_streams_title": "More Live Temples",
+    "stream_info": {
+      "quality": "Quality",
+      "languages": "Languages",
+      "next_aarti": "Next Aarti"
+    },
+    "watch_live_button": "Watch Live",
+    "features": [
+      {
+        "title": "4K HD Quality",
+        "description": "Crystal clear video streaming for immersive experience"
+      },
+      {
+        "title": "Community Experience",
+        "description": "Join thousands of devotees in virtual worship"
+      },
+      {
+        "title": "24/7 Availability",
+        "description": "Access divine blessings anytime, anywhere"
+      }
+    ],
+    "streams": [
+      {
+        "temple": "Somnath Temple",
+        "location": "Veraval",
+        "quality": "4K HD",
+        "language": "Multi-language",
+        "nextAarti": "6:00 PM"
+      },
+      {
+        "temple": "Dwaraka Temple",
+        "location": "Dwarka",
+        "quality": "4K HD",
+        "language": "Multi-language",
+        "nextAarti": "7:30 PM"
+      },
+      {
+        "temple": "Ambanji Temple",
+        "location": "Gir Somnath",
+        "quality": "4K HD",
+        "language": "Multi-language",
+        "nextAarti": "8:00 PM"
+      }
+    ]
+  },
+  "donations": {
+    "section_title": "Make a Sacred Contribution",
+    "section_subtitle": "Your generous donations help maintain temples, feed devotees, and preserve our spiritual heritage. Every contribution is a step towards divine service.",
+    
+    "causes": {
+      "general": {
+        "title": "General Temple Development",
+        "description": "Support overall temple maintenance and development projects"
+      },
+      "annadanam": {
+        "title": "Annadanam (Free Meals)",
+        "description": "Provide free meals to pilgrims and devotees"
+      },
+      "education": {
+        "title": "Educational Programs",
+        "description": "Support religious education and cultural programs"
+      }
+    },
+    
+    "divine_messages": [
+      "May your generous contribution bring you divine blessings and spiritual growth.",
+      "Your selfless donation is a sacred offering that purifies the soul and brings eternal merit.",
+      "As you give with a pure heart, may the divine grace shower upon you and your family.",
+      "Your donation is not just charity; it's an investment in spiritual evolution and cosmic harmony.",
+      "May the divine light guide your path as you contribute to the preservation of sacred traditions.",
+      "Your generous heart will be blessed with peace, prosperity, and spiritual enlightenment.",
+      "Every rupee donated with devotion multiplies into divine blessings and karmic merit.",
+      "May your noble act of giving bring you closer to the divine and fill your life with joy."
+    ],
+    
+    "validation": {
+      "fill_all_fields": "Please fill in all donor information fields",
+      "valid_amount": "Please select or enter a valid donation amount"
+    },
+    
+    "form": {
+      "title": "Make a Donation",
+      "choose_cause": "Choose Your Cause",
+      "select_amount": "Select Amount (₹)",
+      "custom_amount_placeholder": "Enter custom amount",
+      "name_placeholder": "Full Name *",
+      "phone_placeholder": "Phone Number *",
+      "email_placeholder": "Email Address *",
+      "donate_button": "Donate ₹{{amount}}",
+      "security_note": "Your donation is secure and tax-deductible. 80G certificate will be provided."
+    },
+    
+    "progress": {
+      "progress": "Progress",
+      "donors": "Donors",
+      "to_go": "To Go"
+    },
+    
+    "recent_contributions": {
+      "title": "Recent Contributions",
+      "donors": [
+        { "name": "Ravi Kumar", "time": "2 min ago" },
+        { "name": "Priya Sharma", "time": "15 min ago" },
+        { "name": "Anil Gupta", "time": "1 hour ago" },
+        { "name": "Meera Devi", "time": "2 hours ago" }
+      ]
+    },
+    
+    "receipt": {
+      "header": "DIVINE DARSHAN VIBHUTHI",
+      "receipt_no": "Receipt No",
+      "date": "Date",
+      "time": "Time",
+      "donor_info": "Donor Information",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "donation_details": "Donation Details",
+      "amount": "Amount",
+      "cause": "Cause",
+      "thank_you": "Thank you for your generous contribution!",
+      "computer_generated": "This is a computer generated receipt.",
+      "tax_exemption": "80G Certificate: Eligible for tax exemption",
+      "success_title": "Donation Successful!",
+      "divine_blessings": "Divine Blessings",
+      "additional_quote": "The hand that gives is always blessed. Your contribution supports divine service.",
+      "thank_you_name": "Thank You, {{name}}!",
+      "received_successfully": "Your donation has been received successfully",
+      "date_time": "Date & Time",
+      "download_receipt": "Download Receipt",
+      "another_donation": "Make Another Donation",
+      "tax_benefit_info": "80G Tax Benefit: Your donation is eligible for tax exemption under section 80G. Certificate will be emailed within 7 working days."
+    }
+  },
+  "footer": {
+    "app_name": "SHREE",
+    "tagline": "Divine Temple Portal",
+    "description": "Your trusted gateway to divine blessings. Book temple visits, participate in seva, and experience spiritual journeys with ease.",
+    "quick_links": {
+      "title": "Quick Links",
+      "book_darshan": "Book Darshan",
+      "seva_booking": "Seva Booking",
+      "virtual_darshan": "Virtual Darshan",
+      "accommodation": "Accommodation",
+      "prasad_delivery": "Prasad Delivery",
+      "donations": "Donations"
+    },
+    "support": {
+      "title": "Support",
+      "help_center": "Help Center",
+      "faq": "FAQ",
+      "booking_policy": "Booking Policy",
+      "refund_policy": "Refund Policy",
+      "terms_conditions": "Terms & Conditions",
+      "privacy_policy": "Privacy Policy"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "helpline": "24/7 Helpline",
+      "email_support": "Email Support",
+      "head_office": "Head Office",
+      "address": "123 Temple Street, Sacred City, India"
+    },
+    "copyright": "© 2025 Shree. All rights reserved. Made with devotion for the divine community.",
+    "features": {
+      "languages": "Available in 5+ languages",
+      "compliant": "PCI-DSS Compliant",
+      "certified": "ISO 27001 Certified"
+    }
+  },
+  "bookingModal": {
+    "titles": {
+      "darshan": "Book Darshan Slot",
+      "seva": "Book Seva/Puja",
+      "accommodation": "Book Accommodation",
+      "prasad": "Order Prasad",
+      "parking": "Reserve Parking",
+      "default": "Booking"
+    },
+    "steps": {
+      "select": "Select",
+      "details": "Details",
+      "payment": "Payment",
+      "select_date_time": "Select Date & Time",
+      "personal_details": "Personal Details",
+      "payment_details": "Payment Details"
+    },
+    "form": {
+      "date": "Date",
+      "time": "Time",
+      "guests": "Number of Guests",
+      "guest": "{{count}} Guest",
+      "guest_plural": "{{count}} Guests",
+      "name": "Full Name",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "special_requests": "Special Requests",
+      "available_slots": "Available Slots",
+      "select_seva": "Select Seva",
+      "payment_method": "Payment Method"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "phone": "Enter your phone number",
+      "email": "Enter your email address",
+      "special_requests": "Any special requirements or requests..."
+    },
+    "buttons": {
+      "back": "Back",
+      "next_step": "Next Step",
+      "confirm_booking": "Confirm Booking",
+      "close": "Close",
+      "view_qr": "View QR Code",
+      "download_qr": "Download QR Code",
+      "download_receipt": "Download Receipt",
+      "back_to_confirmation": "Back to Confirmation"
+    },
+    "status": {
+      "available": "Available",
+      "unavailable": "Unavailable",
+      "full": "Full",
+      "spots": "spots"
+    },
+    "services": {
+      "archana": "Archana",
+      "abhishekam": "Abhishekam",
+      "homam": "Homam",
+      "kalyanam": "Kalyanam"
+    },
+    "descriptions": {
+      "archana": "Special prayer with your name",
+      "abhishekam": "Sacred bathing ceremony",
+      "homam": "Fire ritual for specific purposes",
+      "kalyanam": "Divine marriage ceremony"
+    },
+    "duration": {
+      "30min": "30 min",
+      "1hour": "1 hour",
+      "2hours": "2 hours",
+      "3hours": "3 hours"
+    },
+    "summary": {
+      "title": "Booking Summary",
+      "service": "Service",
+      "date": "Date",
+      "guests": "Guests",
+      "selected_seva": "Selected Seva",
+      "payment_summary": "Payment Summary",
+      "base_price": "Base Price",
+      "processing_fee": "Processing Fee",
+      "total": "Total"
+    },
+    "success": {
+      "title": "Booking Confirmed!",
+      "message": "Your booking has been successfully confirmed.",
+      "booking_id": "Booking ID"
+    },
+    "qr": {
+      "title": "Your Booking QR Code",
+      "scan_instruction": "Scan this QR code at the temple entrance",
+      "valid_for": "Valid for",
+      "guest": "{{count}} Guest",
+      "guest_plural": "{{count}} Guests",
+      "alt_text": "Booking QR Code",
+      "generating": "Generating QR..."
+    },
+    "receipt": {
+      "temple_name": "Dwaraka Dhish Temple",
+      "title": "Divine Darshan Receipt",
+      "booking_id": "Booking ID",
+      "devotee_info": "Devotee Information",
+      "booking_details": "Booking Details",
+      "payment_summary": "Payment Summary",
+      "service": "Service",
+      "seva": "Seva",
+      "base_price": "Base Price",
+      "processing_fee": "Processing Fee",
+      "total_amount": "Total Amount",
+      "not_provided": "Not provided",
+      "not_selected": "Not selected",
+      "thank_you_message": "Thank you for your devotion. May Lord Dwarakadhish bless you with happiness and prosperity.",
+      "contact_info": "For queries contact: support@dwarakadhishtemple.org"
+    },
+    "errors": {
+      "receipt_generation": "Error generating receipt. Please try again."
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "success": "Success!",
+    "error": "Error!",
+    "tryAgain": "Try Again",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "less": "Less",
+    "submit": "Submit",
+    "reset": "Reset",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No"
+  }
+}
